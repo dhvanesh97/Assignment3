@@ -6,11 +6,16 @@ body{
     line-height: 2em;
 }
 
-ul:first-of-type {
+ul:first-of-type{
     list-style-type: none;
     padding: 0px;
     
 }
+li > ul{
+    margin-left: 40px;
+    list-style: circle;
+}
+
 a{
     color: red;
 }
